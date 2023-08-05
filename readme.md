@@ -10,7 +10,7 @@ npm install --save fast-mod-exp
 
 ## Usage
 
-This is equivalent to doing `( a % b ) % n`, assuming bigints or infinite precision, but way faster in many cases.
+This is equivalent to doing `( a ** b ) % n`, assuming bigints or infinite precision, but way faster in many cases.
 
 ```ts
 import fme from 'fast-mod-exp';
